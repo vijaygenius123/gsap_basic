@@ -30,3 +30,15 @@ gsap.to('.footer', {
     ease: 'elastic',
     delay: 2.5
 })
+
+gsap.fromTo('.button', {
+    opacity: 0,
+    scale: 0,
+    rotation: 720
+}, {
+    duration: 1,
+    delay: 3.5,
+    opacity: 1,
+    scale: 1,
+    rotation: 0
+})
