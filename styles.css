@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.content{
+    flex-grow:1;
+    display:flex;
+    justify-content:space-between;
+}
+
+.header{
+    height: 5vh;
+    background-color: rgba(255,0,0,0.4)
+}
+
+.links{
+    height:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:white;
+}
+
+.footer{
+    height: 5vh;
+    background-color: rgba(0,0,255,0.4)
+}
+
+.button{
+    align-self:center;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(0,127,127,0.8);
+    color: white;
+}
+
+.sidebar{
+    width:10vw;
+    background-color: rgba(0,255,0,0.4);
+}
