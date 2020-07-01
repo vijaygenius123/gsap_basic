@@ -24,10 +24,6 @@ body{
     color:white;
 }
 
-.footer{
-    height: 5vh;
-    background-color: rgba(0,0,255,0.4)
-}
 
 .button{
     align-self:center;
@@ -40,4 +36,11 @@ body{
 .sidebar{
     width:10vw;
     background-color: rgba(0,255,0,0.4);
+}
+
+
+.footer{
+    height: 5vh;
+    background-color: rgba(0,0,255,0.4);
+    transform: translateY(100%);
 }
