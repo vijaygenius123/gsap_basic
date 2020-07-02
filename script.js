@@ -9,3 +9,9 @@ timeline
     .fromTo('.button',
         { opacity: 0, scale: 0, rotation: 720 },
         { opacity: 1, scale: 1, rotation: 0 })
+
+const button = document.querySelector('button')
+
+button.addEventListener('click', function () {
+    timeline.reverse()
+})
